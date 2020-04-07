@@ -1,0 +1,19 @@
+import java.io.File;
+
+import org.testng.annotations.Test;
+
+public class ReadFile {
+  @Test
+  public void f() {
+	  try
+	  {
+		  File F=new File("");
+		  
+		  
+	  }
+  catch(Exception e)
+	  {
+	  System.out.println(e.getMessage());
+	  }
+  }
+}

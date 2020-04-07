@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.testng.annotations.Test;
+
+public class GetProperty {
+  @Test
+  public void f() {
+	  try
+	  {
+		  String strPath="myProperty.properties";
+		  File F=new File(strPath);
+		  FileInputStream fis=new FileInputStream(F);
+		  
+		  
+	  }
+	  
+	  catch(Exception e)
+	  {
+		  System.out.println(e.getMessage());
+	  }
+  }
+}

@@ -1,0 +1,22 @@
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class Assertion {
+  @Test
+  public void f() {
+	  
+	  
+	  try
+	  {
+		  SoftAssert s=new SoftAssert();
+		  System.out.println("Before");
+		  s.assertEquals(true, false);
+		  System.out.println("After");
+	  }
+	  
+	  catch(Exception e)
+	  {
+		  System.out.println(e.getMessage());
+	  }
+  }
+}

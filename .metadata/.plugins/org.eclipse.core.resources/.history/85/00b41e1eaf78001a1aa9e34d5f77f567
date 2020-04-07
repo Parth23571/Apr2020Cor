@@ -1,0 +1,25 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class OpenApp extends Utility {
+	@Test
+	public void f() {
+		try {
+			init();
+			driver.get(p.getProperty("url"));
+			driver.manage().window().maximize();
+			getElementByName("txtName").sendKeys(Keys.SHIFT, "Testing");
+			System.out.println("Done");
+		}
+
+		catch (Exception e) {
+
+		}
+	}
+}

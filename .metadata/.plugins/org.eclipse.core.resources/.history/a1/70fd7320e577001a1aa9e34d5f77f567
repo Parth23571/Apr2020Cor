@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.FileReader;
+
+import org.testng.annotations.Test;
+
+public class ReadFile {
+  @Test
+  public void f() {
+	  try
+	  {
+		  File F=new File("E:\\Satish\\Automation\\Selenium\\cor\\cor\\src\\main\\java\\TestData\\myFile.txt");
+		  
+		  FileReader fr=new FileReader(F);
+		  
+		  
+		  
+	  }
+  catch(Exception e)
+	  {
+	  System.out.println(e.getMessage());
+	  }
+  }
+}

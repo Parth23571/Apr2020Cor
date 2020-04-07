@@ -1,0 +1,17 @@
+import org.testng.annotations.Test;
+
+public class OpenApp extends Utility {
+  @Test
+  public void f() {
+	  try
+	  {
+		  
+		  
+	  }
+	  
+	  catch(Exception e)
+	  {
+		  
+	  }
+  }
+}

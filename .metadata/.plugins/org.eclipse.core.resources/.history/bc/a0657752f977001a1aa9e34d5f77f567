@@ -1,0 +1,9 @@
+
+public class Utility {
+
+	
+	public void getElementID(String ID)
+	{
+		
+	}
+}
