@@ -19,6 +19,7 @@ public class OpenApp extends Utility {
 			
 File myFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(myFile, new File("E:\\Satish\\Automation\\Selenium\\cor\\cor\\src\\main\\java\\TestData\\a.png"));
+System.out.println("Hello Allddd"+"04-08");
 System.out.println("In Between Test"+"1");
 System.out.println("Hello Allddd"+"04-08");
 System.out.println("Done1");
